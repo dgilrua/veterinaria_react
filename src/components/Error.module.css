@@ -1,0 +1,14 @@
+.error {
+    background-color: #bb0126;
+    text-align: center;
+    color: white;
+    margin-bottom: 3rem;
+    padding: 1.5rem 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.error p {
+    margin: 0;
+    font-size: 1.5rem;
+}

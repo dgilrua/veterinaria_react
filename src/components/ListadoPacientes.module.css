@@ -1,0 +1,14 @@
+.separacion {
+    margin-bottom: 5rem;
+}
+
+.principal {
+    overflow-y: hidden;   
+}
+
+@media (min-width: 768px) {
+    .principal {
+        overflow-y: scroll;   
+        max-height: 63rem;
+    }
+}

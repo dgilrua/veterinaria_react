@@ -1,0 +1,54 @@
+.ayuda {
+    padding: 2rem 2.5rem;
+    background-color: white;
+    text-align: left;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 0px 26px -22px rgba(0,0,0,0.89);
+    -moz-box-shadow: 0px 0px 26px -22px rgba(0,0,0,0.89);
+    box-shadow: 0px 0px 26px -22px rgba(0,0,0,0.89);
+    margin-bottom: 2rem;
+}
+
+.ayuda p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.ayuda span {
+    text-transform: initial;
+    font-weight: 400;
+}
+
+.divButton {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.boton {
+    border-radius: unset;
+    background-color: var(--azul); 
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    padding: 1rem 0;
+    margin-bottom: 0;
+    border: 0px;
+    width: 20%;
+    cursor: pointer;
+    transition: background-color 300ms;
+    border-radius: 1rem;
+}
+
+.botonRojo {
+    background-color: #bb0126;
+}
+
+.boton:hover {
+    background-color: #3730b4;
+}
+
+.botonRojo:hover {
+    background-color: #910521;
+}

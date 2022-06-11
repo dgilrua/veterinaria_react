@@ -1,0 +1,13 @@
+.grid {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1.3fr 2fr;
+        gap: 5rem;
+    }
+}
+
